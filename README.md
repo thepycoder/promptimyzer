@@ -1,4 +1,4 @@
-# 🎉 Promptimizer 🎉
+# 🎉 Promptimyzer 🎉
 
 This is an example repo of how to use your own documentation to create a question answering bot using LangChain and the openAI API.
 

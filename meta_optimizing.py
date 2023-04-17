@@ -32,7 +32,7 @@ openai.api_key = "[YOUR_KEY_HERE]"
 
 # Initialize the ClearML Task
 task = Task.init(
-    project_name="Promptimizer",
+    project_name="promptimyzer",
     task_name="Docs Optimizer",
     reuse_last_task_id=False,
     output_uri=True
@@ -277,7 +277,7 @@ if __name__ == "__main__":
     ]
 
     # Streamlit
-    st.title('🎉 Promptimizer')
+    st.title('🎉 promptimyzer')
 
     st_instructions = st.text_area(label="Instructions Prompt", disabled=True, key="instructions")
 
