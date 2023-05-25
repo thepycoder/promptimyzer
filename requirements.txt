@@ -1,9 +1,13 @@
-clearml==1.10.1
-clearml==1.10.0
+clearml==1.10.4
 colored==1.4.4
 faiss_cpu==1.7.3
+langchain==0.0.170
 numpy==1.24.2
-openai==0.27.2
+openai==0.27.7
 pandas==1.5.3
+plotly==5.14.1
 scikit_learn==1.2.2
+spacy==3.5.3
 streamlit==1.20.0
+tiktoken==0.4.0
+urllib3==1.26.16

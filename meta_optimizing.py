@@ -16,7 +16,7 @@ import streamlit as st
 
 from langchain import VectorDBQAWithSourcesChain
 from langchain.callbacks import ClearMLCallbackHandler, StdOutCallbackHandler
-from langchain.callbacks.base import CallbackManager
+from langchain.callbacks.manager import CallbackManager
 from langchain.chains import LLMChain
 from langchain.chat_models import ChatOpenAI
 from langchain.embeddings import OpenAIEmbeddings
